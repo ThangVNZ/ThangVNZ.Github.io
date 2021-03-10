@@ -1,38 +1,32 @@
+@import url('../App_Themes/DarkGreyImages/DarkGray.css');
 * {
-   
     font-family: Verdana, Arial, Sans-Serif;
 }
 
 body {
-   
     margin: 0;
-    background-image: url('DarkGreyImages/backgrond.jpg');
     background-color: #565656;
 }
 
 a {
-   
     color: #FE601A;
     text-decoration: none;
 }
     a:hover {
-       
         text-decoration: underline;
     }
 
 h1 {
-    
     font-size: 20px;
 }
 
 header {
-    
+    background-image: url('DarkGreyImages/a.jpg');
     background-color: #E34600;
     margin-bottom: 20px;
 }
 
     header a {
-       
         background-image: url('DarkGreyImages/Header.jpg');
         background-repeat: no-repeat;
         width: 944px;
@@ -40,20 +34,44 @@ header {
         display: block;
     }
 
-nav {
-   
-    width: 130px;
-    float: left;
-    padding: 10px;
-    padding-top: 0; /* Reset the top-padding. The first menu item (home) already adds some padding to its top to create room between the nav element and the first menu item */
-    background-color: #F8F4EF;
-    margin-left: 35px;
-    margin-right: 20px;
-    font-size: 0.8em;
+#menu ul {
+    background: #ff0000;
+    list-style-type: none;
+    text-align: center;
 }
 
+#menu li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+    #menu a:hover {
+        background: #F1F1F1;
+        color: #333;
+    }
+
+.MainMenu {
+    border: 1px solid #999999;
+    width: 814px;
+    height: 19px;
+    background-color: #555555;
+}
+
+    .MainMenu ul li {
+        width: 200px;
+    }
+
 section#MainContent {
-    
     color: white;
     font-size: 0.8em;
     width: 600px;
@@ -63,7 +81,6 @@ section#MainContent {
 }
 
 aside#Sidebar {
-   
     font-size: 0.8em;
     width: 124px;
     color: White;
@@ -72,7 +89,6 @@ aside#Sidebar {
 }
 
 footer {
-   
     text-align: center;
     border-top: 2px dashed gray;
     height: 37px;
