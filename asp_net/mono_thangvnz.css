@@ -1,6 +1,6 @@
 @import url('../App_Themes/Monochrome/Monochrome.css');
-* {
 
+* {
     font-family: Arial, Sans-Serif;
 }
 
@@ -10,30 +10,25 @@ body {
 }
 
 a {
- 
     text-decoration: none;
     color: #0760B2;
 }
 
     a:hover {
-
         text-decoration: underline;
     }
 
 h1 {
-
     font-size: 20px;
 }
 
 h2 {
-            
     font-size: 14px;
     color: #7773A1;
     margin-top: 10px;
 }
 
 #PageWrapper {
-
     width: 844px;
     background-color: #0760B2;
     margin: auto;
@@ -46,7 +41,6 @@ header {
 }
 
     header a {
-        
         width: 844px;
         height: 86px;
         display: block;
@@ -56,38 +50,34 @@ header {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: sans-serif;
     color: #333;
 }
 
-#menu ul {
-    background: #ff0000;
-    list-style-type: none;
-    text-align: center;
+nav {
+    /*
+    The menu spans the page width, right below the header.
+    At the top and left a few pixels padding is applied to create some room.
+  */
+    background-image: url('MonochromeImages/MenuBackground.jpg');
+    width: 827px;
+    height: 36px;
+    padding-top: 7px;
+    padding-left: 17px;
 }
 
-#menu li {
-    color: #f1f1f1;
-    display: inline-block;
-    width: 120px;
-    height: 40px;
-    line-height: 40px;
-    margin-left: -5px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: #fff;
-    display: block;
-}
-
-    #menu a:hover {
-        background: #F1F1F1;
-        color: #333;
+    nav a {
+        /*
+    Links in the Menu are white. This gets overriden by styles in chapter 7.
+  */
+        color: #fff;
     }
-
 .MainMenu {
+    /*
+    The Menu gets a white border on all four sides.
+  */
     border: 1px solid #999999;
     width: 814px;
     height: 19px;
@@ -95,10 +85,11 @@ body {
 }
 
     .MainMenu ul li {
-      
+        /*
+    Gives the four menu items in the main menu a width of 200px each.
+  */
         width: 200px;
     }
-
 section#MainContent {
     font-size: 0.8em;
     width: 659px;
@@ -138,11 +129,10 @@ footer {
 }
 
 .Introduction {
-
     font-style: italic;
     color: #3e3e3e;
 }
-.Mybutton
-{
-    color:White;
+
+.Mybutton {
+    color: White;
 }
