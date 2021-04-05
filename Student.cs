@@ -8,24 +8,20 @@ namespace AppOOP
 {
     class Student
     {
-        
-        public string StudentName;
-        public class RoutedEventArgs : EventArgs {
-            
+        private string Name;
+        public string StName {
+            get { return Name; }
+            set { }
         }
+        public void Student(string StName) { }
         private void btnTalk_Click(object sender, RoutedEventArgs e)
         {
             Student st1 = new Student("Minh");
             Student st = new Student();
             Student st2 = new Student();
-            st.btnTalk_Click();
-            st1.StudentName = "Dung";
-            st1.btnTalk_Click();
-        }
-
-        private void btnTalk_Click()
-        {
-            
+            st.Talk();
+            st1.Name = "Dung";
+            st1.Talk();
         }
     }
 }
