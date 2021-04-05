@@ -15,7 +15,7 @@ namespace AppOOP
         }
         private void btnTalk_Click(object sender, RoutedEventArgs e)
         {
-            Student st1 = new Student();
+            Student st1 = new Student("Minh");
             Student st = new Student();
             Student st2 = new Student();
             st.btnTalk_Click();
